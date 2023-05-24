@@ -1,0 +1,467 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"); */
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0f0f0f;
+  font-family: "Roboto", sans-serif;
+  color: white;
+ 
+} 
+
+/*SECTION 1*/
+
+.section-1 {
+  max-width: 1040px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 200px;
+}
+
+.section-1-header {
+  max-height: 66px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-1-header-logo img {
+  height: 100%;
+}
+
+.section-1-header-options {
+  display: flex;
+  align-items: center;
+}
+
+.section-1-header-options div {
+  opacity: 0.8;
+  font-size: 18px;
+  line-height: 36px;
+  white-space: nowrap;
+  margin: 0 20px 0 36px;
+  cursor: pointer;
+}
+
+.section-1-main {
+  text-align: center;
+}
+
+.section-1-main-1 {
+  margin-top: 100px;
+  font-size: 106px;
+  line-height: 125px;
+  letter-spacing: -2px;
+  font-weight: 900;
+}
+
+.section-1-main-2 {
+  font-size: 30px;
+  letter-spacing: -0.2px;
+  line-height: 38px;
+  margin-top: 35px;
+  font-weight: 800;
+}
+
+.section-1-main-3 {
+  margin-top: 58px;
+}
+
+.section-1-main-3 button {
+  padding: 20px 65px;
+  font-size: 24px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 700px;
+  background-color: #fff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+/*SECTION-2*/
+.section-2 {
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.section-2-container img {
+  position: absolute;
+  left: calc(50% - 198px);
+  top: 6%;
+}
+
+/*SECTION 3*/
+.section-3 {
+  position: relative;
+  padding: 240px 200px 180px;
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+}
+
+.section-3-header-1 {
+  font-size: 100px;
+  letter-spacing: -3.15px;
+  font-family: "Gilroy-Bold", sans-serif;
+  line-height: 96px;
+  opacity: 0.9;
+  font-weight: 700;
+}
+
+.section-3-header-2 {
+  font-size: 32px;
+  letter-spacing: -0.2px;
+  /* line-height: 38px; */
+  max-width: 630px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.section-3-main-1 {
+  font-size: 18px;
+  letter-spacing: 0px;
+  /* line-height: 28px; */
+  max-width: 630px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.section-3-main-2 {
+  display: inline-block;
+  padding: 20px 65px;
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+/* SECTION 4*/
+
+.section-4 {
+  position: relative;
+  padding: 60px 200px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.section-4-header {
+  font-size: 24px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 700;
+}
+
+.section-4-img img {
+  margin-top: 50px;
+  width: 100%;
+  /* height:50px; */
+  /* background-image: url(''); */
+  background-size: 100%;
+  background-position: center center;
+}
+.section-5 {
+  background-color: rgb(26, 97, 233);
+  color: rgb(248, 248, 248);
+  /* width: 90vw; */
+  max-height: 100vh;
+  position: relative;
+  padding: 120px 100px 90px;
+  background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg.jpg");
+  background-size: cover;
+  object-fit: contain;
+  background-position: center center;
+  /* background-size: cover; */
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  /* justify-content: space-between; */
+}
+.section-5-header-1 {
+  font-size: 100px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 700;
+  letter-spacing: -3.15px;
+  line-height: 96px;
+  white-space: pre-line;
+  opacity: 0.9;
+}
+.section-5-header-2 {
+  font-size: 32px;
+  font-family: "Gilroy-bold", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  padding-top: 0;
+  white-space: pre-line;
+  max-width: 630px;
+  margin-top: 16px;
+}
+
+.section-5-main-1 {
+  /* margin-top: -200px; */
+  font-size: 18px;
+  font-family: "Gilroy-bold", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 28px;
+  white-space: pre-line;
+  max-width: 630px;
+  margin-bottom: 40px;
+}
+
+.section-5-main-2 {
+  display: inline-block;
+  padding: 20px 65px;
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.section-6 {
+  max-width: 1040px;
+  padding-top: 60px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  /* background-color: red; */
+}
+
+.section-6-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-6-left-content {
+  padding: 0 50px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.section-6-left-heading {
+  font-size: 70px;
+  font-family: "gilroy-bold", sans-serif;
+  line-height: 70px;
+  letter-spacing: -3.15px;
+  white-space: pre-line;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.section-6-left-desc {
+  font-size: 18px;
+  font-family: "gilroy-bold", sans-serif;
+  line-height: 28px;
+  letter-spacing: 0px;
+  white-space: pre-line;
+  font-weight: 700;
+  max-width: 600px;
+  margin-top: 52px;
+}
+
+.section-6-right {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.section-6-right-placeholder {
+  max-width: 322px;
+  max-height: 480px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* left: 0; */
+  /* align-self: flex-start; */
+  box-shadow: rgb(250 250 250/60%) 0px -5px 6px 0px inset,
+    rgb(38 37 37/24%) 4px 6px 11px 1px inset;
+  border-radius: 46px;
+  padding: 16px 14px;
+}
+
+.section-6-right-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 46px;
+}
+.section-7 {
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/neopop-image-mock.png);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .section-8-header-1 {
+  font-size: 50px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 700;
+  letter-spacing: -3.15px;
+  line-height: 96px;
+  white-space: pre-line;
+  opacity: 0.9;
+  max-width: 630px;
+}
+.section-8-header-2 {
+  font-size: 32px;
+  font-family: "Gilroy-bold",sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  padding-top: 0;
+  white-space: pre-line;
+  max-width: 630px;
+  margin-top: 16px;
+}
+
+/* .section-8-main-1{
+
+.section-8-main-2{
+  display: inline-block;
+  padding: 20px 65px;
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 700;
+} */
+.section-8 {
+  background-color: rgb(90, 30, 203);
+  height: 90vh;
+  /* width: 100vw; */
+  padding: 120px 100px 90px;
+  position: relative;
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/security-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  display: flex;
+
+  flex-direction: column;
+ 
+}
+.section-8-header-1 {
+  font-size: 100px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 700;
+  letter-spacing: -3.15px;
+  line-height: 96px;
+  white-space: pre-line;
+  opacity: 0.9;
+}
+.section-8-header-2 {
+  font-size: 32px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 700;
+  /* letter-spacing: -3.15px; */
+  /* line-height: 96px; */
+  white-space: pre-line;
+  opacity: 0.9;
+  /* margin-top: 1px; */
+}
+
+.section-8-main-1 {
+  font-size: 18px;
+  font-family: "Gilroy-Bold", sans-serif;
+  letter-spacing: 0px;
+  line-height: 28px;
+  white-space: pre-line;
+  max-width: 630px;
+  margin-bottom: 40px;
+}
+.section-8-main-2{
+    display: inline-flex;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    pointer-events: auto;
+    text-align: center;
+    padding: 20px 65px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family:"Gilroy-Bold", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.section-9 {
+  background-color: rgb(2, 119, 87);
+  color: rgb(248, 248, 248);
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  padding: 240px 200px 250px;
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg.jpg);
+  background-size: cover;
+  background-position: right bottom;
+  display: flex;
+  -webkit-box-pack: justify;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.section-9 .container{
+  width:70vw;
+  height:70vh;
+  border:2px solid black;
+}
+/* .section-9-header{
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  width: -50%;
+  font-size: 60px;
+  font-family: gilroy-bold;
+  letter-spacing: -1.15px;
+  line-height: 64px;
+  white-space: pre-line;
+  opacity: 0.9;
+} */
+
+.section-10 {
+  color: rgb(255, 255, 255);
+  padding: 200px;
+  font-family: gilroy-bold;
+  white-space: pre-line;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  
+}
+/* FOOTER */
+footer {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
